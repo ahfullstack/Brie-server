@@ -7,11 +7,11 @@ const statusSchema = new Schema({
         name: {
             type: String,
         },
-        symptoms: [
+        symptoms: 
             {
-                type: String
+                type: Object
             }
-        ],
+        ,
         description: {
             type: String
         }
