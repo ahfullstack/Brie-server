@@ -16,7 +16,8 @@ const statusSchema = new Schema({
             type: String
         }
     }
-)
+    , {timestamps: true})
+
 
 const Status = mongoose.model('Status', statusSchema);
 
